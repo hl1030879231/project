@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>化学钠与水反应实验</title>
+<script type="text/javascript" src="./jquery-3.4.1.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<script type="text/javascript" src="./animate/anime.min.js"></script>
+<script type="text/javascript" src="./sketch.js"></script>
+<script type="text/javascript" src="html2canvas.min.js"></script>
+<script type="text/javascript" src="save.js"></script>
+<script type="text/javascript" src="three.js"></script>
+<script type="text/javascript" src="show.js"></script>
+<style type="text/css">
+            html, body {
+                background: #000000;
+                margin:0;
+                padding:0;
+            }
+            *{ cursor:url(img/bi02.ico),auto;}
+        </style>
+</head>
+
+<body>
+<div id = "ViewAll">
+<img id = "img02" src = "img/img02.png" onClick = "move()"></img>
+<img id = "paper" src = "img/back.png"></img>
+<!-- <img id = "img01" src = "img/img01.png"></img> -->
+<!-- <img id = "share" src = "img/fenxiang.png" onClick = "saveToImg()"></img> -->
+<!-- <button id = "share" onclick = "saveToImg()">save</button> -->
+<div id = "date">实验日期：</div>
+
+<div id = "View"></div>
+
+</div>
+
+<img id = "backImage" alt="" src="img/bkimg.png">
+<div id = "areaDraw"></div>
+<div id = "tablearea"></div>
+<img id = "change" src = "img/img04.png" onclick="changeLan()"></img>
+
+<script type="text/javascript" src="./draw.js"></script>
+</body>
+</html>
